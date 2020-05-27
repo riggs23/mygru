@@ -10,7 +10,7 @@ from theano import tensor as T
 import numpy as np
 import custom_theano_ops as cto
 
-disable_custom_op = False
+disable_custom_op = True #False if using GPU
 
 def gpu_diag_wide(X, keepdims=False):
     E = T.eye(*X.shape)
