@@ -8,5 +8,5 @@ setup(name='mygru',
       author='hidasib',
       author_email='notsure.net',
       url='https://github.com/riggs23/mygru',
-      packages=[],
+      packages=['gru4rec', 'gpu_ops', 'evaluation', 'datatools', 'custom_theano_ops'],
      )
