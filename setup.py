@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-setup(name='mygru',
+setup(name='GRU4REC',
       version='1.0',
       description='GRU for recommnedations',
       author='hidasib',
