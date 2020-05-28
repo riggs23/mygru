@@ -8,5 +8,4 @@ setup(name='gru4rec',
       author='hidasib',
       author_email='notsure.net',
       url='https://github.com/riggs23/mygru',
-      packages=['gru4rec'],
      )
