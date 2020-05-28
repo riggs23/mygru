@@ -1,10 +1,12 @@
-from setuptools import find_packages, setup
+#!/usr/bin/env python
 
+from distutils.core import setup
 
-
-setup(
-    name='gru4rec',
-    packages=find_packages(),
-    classifiers=['Development Status :: 3 - Alpha',
-                 'Topic :: Scientific/Engineering :: Artificial Intelligence'],
-)
+setup(name='GRU4REC',
+      version='1.0',
+      description='GRU for recommnedations',
+      author='hidasib',
+      author_email='notsure.net',
+      url='https://github.com/riggs23/mygru',
+      packages=[],
+     )
